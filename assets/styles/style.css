@@ -141,6 +141,7 @@ h1 {
 .start-game .profile .img > img {
     padding: 12px;
     cursor: pointer;
+    width: 120px;
 }
 
 .start-game .profile .img > img:hover {
