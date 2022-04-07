@@ -33,6 +33,7 @@ function startGame() {
         cell.classList.remove(GAME.O_PLAYER);
         cell.classList.remove(GAME.X_PLAYER);
         cell.classList.remove("winner");
+        cell.removeEventListener("click", handleClick);
         cell.addEventListener('click', handleClick, {once: true})
     })
     GAME.startWindow.classList.add("hide");
